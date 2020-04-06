@@ -1,0 +1,412 @@
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git sta
+stage    stash    status
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git sta
+stage    stash    status
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git sta
+stage    stash    status
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git sta
+stage    stash    status
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        instructions.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git add test.txt
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        instructions.txt
+
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git rm --cached test.txt
+rm 'test.txt'
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        instructions.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git add .
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   instructions.txt
+        new file:   test.txt
+
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git rm --cached test.txt
+rm 'test.txt'
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   instructions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git rm --cached instructions.txt
+rm 'instructions.txt'
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git sta
+stage    stash    status
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        instructions.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git add instructions.txt
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   instructions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git commit -m "SI: добавлен файл instructions.txt"
+[master (root-commit) 5a2e63d] SI: добавлен файл instructions.txt
+ 1 file changed, 10 insertions(+)
+ create mode 100644 instructions.txt
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git log
+commit 5a2e63de391a347c8011ece5d519972ed8d79db5 (HEAD -> master)
+Author: Aleksander <aleks_serge@mail.ru>
+Date:   Fri Apr 3 17:02:00 2020 +0400
+
+    SI: добавлен файл instructions.txt
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git remote add origin https://github.com/Aleks1960/test.git
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 492 bytes | 164.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Aleks1960/test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git add instructions.txt
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   instructions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git add instructions.txt
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   instructions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   instructions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git commit -m "AI: изменение в instructions.txt"
+[master 74bb447] AI: изменение в instructions.txt
+ 1 file changed, 8 insertions(+)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 462 bytes | 231.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Aleks1960/test.git
+   5a2e63d..74bb447  master -> master
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git log
+commit 74bb447835c703f9abb7a9132591055808552c89 (HEAD -> master, origin/master)
+Author: Aleksander <aleks_serge@mail.ru>
+Date:   Fri Apr 3 17:32:51 2020 +0400
+
+    AI: изменение в instructions.txt
+
+commit 5a2e63de391a347c8011ece5d519972ed8d79db5
+Author: Aleksander <aleks_serge@mail.ru>
+Date:   Fri Apr 3 17:02:00 2020 +0400
+
+    SI: добавлен файл instructions.txt
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git update
+Warning! `git update` has been deprecated;
+Please use `git update-git-for-windows` instead.
+Git for Windows 2.26.0.windows.1 (64bit)
+Up to date
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), 379 bytes | 25.00 KiB/s, done.
+From https://github.com/Aleks1960/test
+   74bb447..478278e  master     -> origin/master
+Updating 74bb447..478278e
+Fast-forward
+ instructions.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        listing.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$ git log
+commit 478278e945399f8a357cbabd0abca9db0c6403ff (HEAD -> master, origin/master)
+Author: Sergey Iakovlev <siakovlev@student.unimelb.edu.au>
+Date:   Sat Apr 4 00:42:25 2020 +1100
+
+    SI: update with pull command
+
+commit 74bb447835c703f9abb7a9132591055808552c89
+Author: Aleksander <aleks_serge@mail.ru>
+Date:   Fri Apr 3 17:32:51 2020 +0400
+
+    AI: изменение в instructions.txt
+
+commit 5a2e63de391a347c8011ece5d519972ed8d79db5
+Author: Aleksander <aleks_serge@mail.ru>
+Date:   Fri Apr 3 17:02:00 2020 +0400
+
+    SI: добавлен файл instructions.txt
+
+Александр@DESKTOP-T5L2M0B MINGW64 ~/Desktop/GIT_Lerning/test (master)
+$
